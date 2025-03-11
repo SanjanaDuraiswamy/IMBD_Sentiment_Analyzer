@@ -40,7 +40,7 @@ if st.button('Classify'):
 
     ## MAke prediction
     prediction=model.predict(preprocessed_input)
-    sentiment='Positive' if prediction[0][0] > 0.05 else 'Negative'
+    sentiment='Positive' if prediction[0][0] > 0.06 else 'Negative'
 
     # Display the result
     st.write(f'Sentiment: {sentiment}')
