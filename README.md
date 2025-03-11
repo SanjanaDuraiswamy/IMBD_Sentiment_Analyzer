@@ -25,7 +25,17 @@ This project performs sentiment analysis on IMDB movie reviews using an RNN . It
 ##  Model Overview  
 - **Embedding Layer**: Converts words into dense vectors.  
 - **Simple RNN**: A basic recurrent neural network to process sequential data.  
-- **Dense Layer**: Final classification with a **sigmoid activation function**.  
+- **Dense Layer**: Final classification with a **sigmoid activation function**.
+  
+##  Model Deployment  
+The model can be deployed using:  
+- **Streamlit Cloud**  
+- **Heroku / AWS / GCP (Future Scope)**  
+
+## Usage  
+- Modify `main.py` to enhance UI/UX.  
+- Update `requirements.txt` if adding new libraries.  
+- Train with different architectures for better accuracy.
 
 ##  Installation & Running Locally  
 To run the app locally, follow these steps:  
@@ -40,6 +50,8 @@ pip install -r requirements.txt
 
 # Run the Streamlit app
 streamlit run main.py
+
+
 
 
 
